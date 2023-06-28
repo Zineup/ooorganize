@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import {Counter} from "./containers/counter";
+import Todos from "./containers/todos";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Counter/>
+        <Todos/>
         <a
           className="App-link"
           href="https://reactjs.org"
